@@ -22,6 +22,7 @@
 	<true/>
 	<key>ExternalHosts</key>
 	<array>
+		<string>ajax.googleapis.com</string>
 		<string>dealeronthego.herokuapp.com</string>
 	</array>
 	<key>Plugins</key>
