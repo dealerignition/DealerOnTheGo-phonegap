@@ -19,9 +19,13 @@
 	<key>AllowInlineMediaPlayback</key>
 	<false/>
 	<key>OpenAllWhitelistURLsInWebView</key>
-	<false/>
+	<true/>
 	<key>ExternalHosts</key>
-	<array/>
+	<array>
+		<string>ajax.googleapis.com</string>
+		<string>192.168.1.29</string>
+		<string>dealeronthego.herokuapp.com</string>
+	</array>
 	<key>Plugins</key>
 	<dict>
 		<key>Compass</key>
