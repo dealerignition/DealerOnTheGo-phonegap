@@ -22,7 +22,7 @@
 //  DealerOnTheGo
 //
 //  Created by Luke Seelenbinder on 4/26/12.
-//  Copyright __MyCompanyName__ 2012. All rights reserved.
+//  Copyright Dealer Ignition 2012. All rights reserved.
 //
 
 #ifdef CORDOVA_FRAMEWORK
