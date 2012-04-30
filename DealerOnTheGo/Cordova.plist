@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>UIWebViewBounce</key>
-	<false/>
+	<true/>
 	<key>TopActivityIndicator</key>
-	<string>gray</string>
+	<string>grey</string>
 	<key>EnableLocation</key>
 	<false/>
 	<key>EnableViewportScale</key>
