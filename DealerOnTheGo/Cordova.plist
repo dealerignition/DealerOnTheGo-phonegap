@@ -22,6 +22,7 @@
 	<true/>
 	<key>ExternalHosts</key>
 	<array>
+		<string>s3.amazonaws.com</string>
 		<string>dealeronthego.herokuapp.com</string>
 		<string>ajax.googleapis.com</string>
 	</array>
