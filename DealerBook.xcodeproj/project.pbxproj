@@ -43,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		A326B6BA1549A94900FE99D7 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		A372CD1D1549A71000E41CF7 /* DealerOnTheGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealerOnTheGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A372CD1D1549A71000E41CF7 /* DealerBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealerBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A372CD211549A71000E41CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A372CD231549A71000E41CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A372CD251549A71000E41CF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,10 +57,10 @@
 		A372CD351549A71000E41CF7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A372CD371549A71000E41CF7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A372CD391549A71000E41CF7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		A372CD3D1549A71000E41CF7 /* DealerOnTheGo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DealerOnTheGo-Info.plist"; sourceTree = "<group>"; };
+		A372CD3D1549A71000E41CF7 /* DealerBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DealerBook-Info.plist"; sourceTree = "<group>"; };
 		A372CD3F1549A71000E41CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A372CD411549A71000E41CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A372CD431549A71000E41CF7 /* DealerOnTheGo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DealerOnTheGo-Prefix.pch"; sourceTree = "<group>"; };
+		A372CD431549A71000E41CF7 /* DealerBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DealerBook-Prefix.pch"; sourceTree = "<group>"; };
 		A372CD441549A71000E41CF7 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		A372CD491549A71000E41CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A372CD4D1549A71000E41CF7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				A326B6BA1549A94900FE99D7 /* www */,
-				A372CD3B1549A71000E41CF7 /* DealerOnTheGo */,
+				A372CD3B1549A71000E41CF7 /* DealerBook */,
 				A372CD201549A71000E41CF7 /* Frameworks */,
 				A372CD1E1549A71000E41CF7 /* Products */,
 			);
@@ -127,7 +127,7 @@
 		A372CD1E1549A71000E41CF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A372CD1D1549A71000E41CF7 /* DealerOnTheGo.app */,
+				A372CD1D1549A71000E41CF7 /* DealerBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A372CD3B1549A71000E41CF7 /* DealerOnTheGo */ = {
+		A372CD3B1549A71000E41CF7 /* DealerBook */ = {
 			isa = PBXGroup;
 			children = (
 				A372CD441549A71000E41CF7 /* Cordova.framework */,
@@ -161,16 +161,16 @@
 				A372CD701549A71000E41CF7 /* Plugins */,
 				A372CD3C1549A71000E41CF7 /* Supporting Files */,
 			);
-			path = DealerOnTheGo;
+			path = DealerBook;
 			sourceTree = "<group>";
 		};
 		A372CD3C1549A71000E41CF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A372CD3D1549A71000E41CF7 /* DealerOnTheGo-Info.plist */,
+				A372CD3D1549A71000E41CF7 /* DealerBook-Info.plist */,
 				A372CD3E1549A71000E41CF7 /* InfoPlist.strings */,
 				A372CD411549A71000E41CF7 /* main.m */,
-				A372CD431549A71000E41CF7 /* DealerOnTheGo-Prefix.pch */,
+				A372CD431549A71000E41CF7 /* DealerBook-Prefix.pch */,
 				A372CD651549A71000E41CF7 /* Cordova.plist */,
 				A372CD6E1549A71000E41CF7 /* MainViewController.xib */,
 				A372CD721549A71000E41CF7 /* verify.sh */,
@@ -265,9 +265,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A372CD1C1549A71000E41CF7 /* DealerOnTheGo */ = {
+		A372CD1C1549A71000E41CF7 /* DealerBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "DealerOnTheGo" */;
+			buildConfigurationList = A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "DealerBook" */;
 			buildPhases = (
 				A372CD161549A71000E41CF7 /* Sources */,
 				A372CD171549A71000E41CF7 /* Frameworks */,
@@ -280,9 +280,9 @@
 			);
 			dependencies = (
 			);
-			name = DealerOnTheGo;
+			name = DealerBook;
 			productName = DealerOnTheGo;
-			productReference = A372CD1D1549A71000E41CF7 /* DealerOnTheGo.app */;
+			productReference = A372CD1D1549A71000E41CF7 /* DealerBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -293,7 +293,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "DealerOnTheGo" */;
+			buildConfigurationList = A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "DealerBook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -308,7 +308,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A372CD1C1549A71000E41CF7 /* DealerOnTheGo */,
+				A372CD1C1549A71000E41CF7 /* DealerBook */,
 			);
 		};
 /* End PBXProject section */
@@ -437,6 +437,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -461,6 +462,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luke Seelenbinder (UFJ5Z9MM74)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -484,12 +486,13 @@
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DealerOnTheGo/DealerOnTheGo-Prefix.pch";
+				GCC_PREFIX_HEADER = "DealerBook/DealerBook-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
-				INFOPLIST_FILE = "DealerOnTheGo/DealerOnTheGo-Info.plist";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "DealerBook/DealerBook-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -500,7 +503,7 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DealerBook;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,12 +521,13 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DealerOnTheGo/DealerOnTheGo-Prefix.pch";
+				GCC_PREFIX_HEADER = "DealerBook/DealerBook-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
-				INFOPLIST_FILE = "DealerOnTheGo/DealerOnTheGo-Info.plist";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "DealerBook/DealerBook-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -534,7 +538,7 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DealerBook;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "DealerOnTheGo" */ = {
+		A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "DealerBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A372CD741549A71000E41CF7 /* Debug */,
@@ -555,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "DealerOnTheGo" */ = {
+		A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "DealerBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A372CD771549A71000E41CF7 /* Debug */,
