@@ -16,6 +16,9 @@
 		<string>s3.amazonaws.com</string>
 		<string>dealeronthego.herokuapp.com</string>
 		<string>ajax.googleapis.com</string>
+		<string>*.getclicky.com</string>
+		<string>*.cloudfront.net</string>
+		<string>*.newrelic.com</string>
 	</array>
 	<key>MediaPlaybackRequiresUserAction</key>
 	<false/>
