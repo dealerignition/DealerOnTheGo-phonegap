@@ -28,8 +28,6 @@
 		A372CD4E1549A71000E41CF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A372CD4C1549A71000E41CF7 /* Localizable.strings */; };
 		A372CD521549A71000E41CF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A372CD501549A71000E41CF7 /* Localizable.strings */; };
 		A372CD561549A71000E41CF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A372CD541549A71000E41CF7 /* Localizable.strings */; };
-		A372CD601549A71000E41CF7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A372CD5F1549A71000E41CF7 /* Default.png */; };
-		A372CD621549A71000E41CF7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A372CD611549A71000E41CF7 /* Default@2x.png */; };
 		A372CD641549A71000E41CF7 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A372CD631549A71000E41CF7 /* Capture.bundle */; };
 		A372CD661549A71000E41CF7 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = A372CD651549A71000E41CF7 /* Cordova.plist */; };
 		A372CD6A1549A71000E41CF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A372CD691549A71000E41CF7 /* AppDelegate.m */; };
@@ -40,11 +38,17 @@
 		A3CC2B351559758800AE3477 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B341559758800AE3477 /* Icon-114.png */; };
 		A3CC2B371559759400AE3477 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B361559759400AE3477 /* Icon-72.png */; };
 		A3CC2B39155976C800AE3477 /* 144-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B38155976C800AE3477 /* 144-icon.png */; };
+		EAD8C4FE156C0D2000ED082E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C4FD156C0D2000ED082E /* Default@2x.png */; };
+		EAD8C500156C0D3100ED082E /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C4FF156C0D3100ED082E /* Default-Portrait~ipad.png */; };
+		EAD8C502156C0D3600ED082E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C501156C0D3600ED082E /* Default-Portrait@2x~ipad.png */; };
+		EAD8C504156C0D3B00ED082E /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C503156C0D3B00ED082E /* Default-Landscape~ipad.png */; };
+		EAD8C506156C0D3E00ED082E /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C505156C0D3E00ED082E /* Default-Landscape@2x~ipad.png */; };
+		EAD8C508156C0DBD00ED082E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C507156C0DBD00ED082E /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A326B6BA1549A94900FE99D7 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		A372CD1D1549A71000E41CF7 /* DealerBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DealerBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A372CD1D1549A71000E41CF7 /* SalesVerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesVerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A372CD211549A71000E41CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A372CD231549A71000E41CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A372CD251549A71000E41CF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,8 +71,6 @@
 		A372CD4D1549A71000E41CF7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A372CD511549A71000E41CF7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A372CD551549A71000E41CF7 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Resources/se.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A372CD5F1549A71000E41CF7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
-		A372CD611549A71000E41CF7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		A372CD631549A71000E41CF7 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		A372CD651549A71000E41CF7 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
 		A372CD681549A71000E41CF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +84,18 @@
 		A3CC2B341559758800AE3477 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114.png"; path = "../Icon-114.png"; sourceTree = "<group>"; };
 		A3CC2B361559759400AE3477 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		A3CC2B38155976C800AE3477 /* 144-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "144-icon.png"; path = "../144-icon.png"; sourceTree = "<group>"; };
+		EAD8C4FD156C0D2000ED082E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EAD8C4FF156C0D3100ED082E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		EAD8C501156C0D3600ED082E /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		EAD8C503156C0D3B00ED082E /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		EAD8C505156C0D3E00ED082E /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		EAD8C507156C0DBD00ED082E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EAD8C509156C0FED00ED082E /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		EAD8C50A156C0FED00ED082E /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		EAD8C50B156C0FED00ED082E /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		EAD8C50C156C0FED00ED082E /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		EAD8C50D156C0FED00ED082E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EAD8C50E156C0FED00ED082E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +133,12 @@
 		A372CD0F1549A71000E41CF7 = {
 			isa = PBXGroup;
 			children = (
+				EAD8C507156C0DBD00ED082E /* Default.png */,
+				EAD8C505156C0D3E00ED082E /* Default-Landscape@2x~ipad.png */,
+				EAD8C503156C0D3B00ED082E /* Default-Landscape~ipad.png */,
+				EAD8C501156C0D3600ED082E /* Default-Portrait@2x~ipad.png */,
+				EAD8C4FF156C0D3100ED082E /* Default-Portrait~ipad.png */,
+				EAD8C4FD156C0D2000ED082E /* Default@2x.png */,
 				A326B6BA1549A94900FE99D7 /* www */,
 				A372CD3B1549A71000E41CF7 /* DealerBook */,
 				A372CD201549A71000E41CF7 /* Frameworks */,
@@ -129,7 +149,7 @@
 		A372CD1E1549A71000E41CF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A372CD1D1549A71000E41CF7 /* DealerBook.app */,
+				A372CD1D1549A71000E41CF7 /* SalesVerge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,8 +260,12 @@
 		A372CD5E1549A71000E41CF7 /* splash */ = {
 			isa = PBXGroup;
 			children = (
-				A372CD5F1549A71000E41CF7 /* Default.png */,
-				A372CD611549A71000E41CF7 /* Default@2x.png */,
+				EAD8C509156C0FED00ED082E /* Default-Landscape.png */,
+				EAD8C50A156C0FED00ED082E /* Default-Landscape@2x.png */,
+				EAD8C50B156C0FED00ED082E /* Default-Portrait.png */,
+				EAD8C50C156C0FED00ED082E /* Default-Portrait@2x.png */,
+				EAD8C50D156C0FED00ED082E /* Default.png */,
+				EAD8C50E156C0FED00ED082E /* Default@2x.png */,
 			);
 			name = splash;
 			sourceTree = "<group>";
@@ -285,7 +309,7 @@
 			);
 			name = DealerBook;
 			productName = DealerOnTheGo;
-			productReference = A372CD1D1549A71000E41CF7 /* DealerBook.app */;
+			productReference = A372CD1D1549A71000E41CF7 /* SalesVerge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -326,8 +350,6 @@
 				A372CD4E1549A71000E41CF7 /* Localizable.strings in Resources */,
 				A372CD521549A71000E41CF7 /* Localizable.strings in Resources */,
 				A372CD561549A71000E41CF7 /* Localizable.strings in Resources */,
-				A372CD601549A71000E41CF7 /* Default.png in Resources */,
-				A372CD621549A71000E41CF7 /* Default@2x.png in Resources */,
 				A372CD641549A71000E41CF7 /* Capture.bundle in Resources */,
 				A372CD661549A71000E41CF7 /* Cordova.plist in Resources */,
 				A372CD6F1549A71000E41CF7 /* MainViewController.xib in Resources */,
@@ -337,6 +359,12 @@
 				A3CC2B351559758800AE3477 /* Icon-114.png in Resources */,
 				A3CC2B371559759400AE3477 /* Icon-72.png in Resources */,
 				A3CC2B39155976C800AE3477 /* 144-icon.png in Resources */,
+				EAD8C4FE156C0D2000ED082E /* Default@2x.png in Resources */,
+				EAD8C500156C0D3100ED082E /* Default-Portrait~ipad.png in Resources */,
+				EAD8C502156C0D3600ED082E /* Default-Portrait@2x~ipad.png in Resources */,
+				EAD8C504156C0D3B00ED082E /* Default-Landscape~ipad.png in Resources */,
+				EAD8C506156C0D3E00ED082E /* Default-Landscape@2x~ipad.png in Resources */,
+				EAD8C508156C0DBD00ED082E /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +458,8 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: Luke Seelenbinder (UFJ5Z9MM74)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luke Seelenbinder (UFJ5Z9MM74)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -446,9 +474,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PROVISIONING_PROFILE = "99F7B294-FA46-4DDD-87A6-42680326E485";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "99F7B294-FA46-4DDD-87A6-42680326E485";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A6441A0-2D5C-4251-A864-DE3A28A06166";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,8 +490,8 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: Luke Seelenbinder (UFJ5Z9MM74)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luke Seelenbinder (UFJ5Z9MM74)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = NO;
@@ -471,9 +499,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				PROVISIONING_PROFILE = "99F7B294-FA46-4DDD-87A6-42680326E485";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "99F7B294-FA46-4DDD-87A6-42680326E485";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -484,8 +512,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -507,9 +535,9 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = DealerBook;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = SalesVerge;
+				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -519,8 +547,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
@@ -542,9 +570,9 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = DealerBook;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = SalesVerge;
+				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

@@ -12,9 +12,10 @@
 	<false/>
 	<key>ExternalHosts</key>
 	<array>
+		<string>*.uservoice.com</string>
 		<string>ajax.googleapis.com</string>
 		<string>s3.amazonaws.com</string>
-		<string>dealeronthego.herokuapp.com</string>
+		<string>salesverge.herokuapp.com</string>
 		<string>ajax.googleapis.com</string>
 		<string>*.getclicky.com</string>
 		<string>*.cloudfront.net</string>
