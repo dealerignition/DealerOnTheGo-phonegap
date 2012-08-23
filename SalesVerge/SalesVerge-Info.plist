@@ -13,10 +13,10 @@
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon.png</string>
-		<string>icon@2x.png</string>
+		<string>Icon@2x.png</string>
 		<string>Icon-72.png</string>
 		<string>Icon-114.png</string>
-		<string>144-icon.png</string>
+		<string>Icon-72@2x.png</string>
 		<string>Default.png</string>
 		<string>Default@2x.png</string>
 		<string>Default-Portrait~ipad.png</string>
@@ -31,10 +31,10 @@
 			<key>CFBundleIconFiles</key>
 			<array>
 				<string>Icon.png</string>
-				<string>icon@2x.png</string>
+				<string>Icon@2x.png</string>
 				<string>Icon-72.png</string>
 				<string>Icon-114.png</string>
-				<string>144-icon.png</string>
+				<string>Icon-72@2x.png</string>
 				<string>Default.png</string>
 				<string>Default@2x.png</string>
 				<string>Default-Portrait~ipad.png</string>

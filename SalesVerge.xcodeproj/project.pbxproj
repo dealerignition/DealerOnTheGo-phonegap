@@ -38,6 +38,8 @@
 		A3CC2B351559758800AE3477 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B341559758800AE3477 /* Icon-114.png */; };
 		A3CC2B371559759400AE3477 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B361559759400AE3477 /* Icon-72.png */; };
 		A3CC2B39155976C800AE3477 /* 144-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B38155976C800AE3477 /* 144-icon.png */; };
+		D0680A4415E6B6D700588294 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0680A4315E6B6D700588294 /* Icon@2x.png */; };
+		D0680A4615E6B6F000588294 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0680A4515E6B6F000588294 /* Icon-72@2x.png */; };
 		EAD8C4FE156C0D2000ED082E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C4FD156C0D2000ED082E /* Default@2x.png */; };
 		EAD8C500156C0D3100ED082E /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C4FF156C0D3100ED082E /* Default-Portrait~ipad.png */; };
 		EAD8C502156C0D3600ED082E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C501156C0D3600ED082E /* Default-Portrait@2x~ipad.png */; };
@@ -62,10 +64,10 @@
 		A372CD351549A71000E41CF7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A372CD371549A71000E41CF7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A372CD391549A71000E41CF7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		A372CD3D1549A71000E41CF7 /* DealerBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DealerBook-Info.plist"; sourceTree = "<group>"; };
+		A372CD3D1549A71000E41CF7 /* SalesVerge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SalesVerge-Info.plist"; sourceTree = "<group>"; };
 		A372CD3F1549A71000E41CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A372CD411549A71000E41CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A372CD431549A71000E41CF7 /* DealerBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DealerBook-Prefix.pch"; sourceTree = "<group>"; };
+		A372CD431549A71000E41CF7 /* SalesVerge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SalesVerge-Prefix.pch"; sourceTree = "<group>"; };
 		A372CD441549A71000E41CF7 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		A372CD491549A71000E41CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A372CD4D1549A71000E41CF7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -84,6 +86,8 @@
 		A3CC2B341559758800AE3477 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114.png"; path = "../Icon-114.png"; sourceTree = "<group>"; };
 		A3CC2B361559759400AE3477 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		A3CC2B38155976C800AE3477 /* 144-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "144-icon.png"; path = "../144-icon.png"; sourceTree = "<group>"; };
+		D0680A4315E6B6D700588294 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D0680A4515E6B6F000588294 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		EAD8C4FD156C0D2000ED082E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EAD8C4FF156C0D3100ED082E /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		EAD8C501156C0D3600ED082E /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 		A372CD0F1549A71000E41CF7 = {
 			isa = PBXGroup;
 			children = (
+				D0680A4515E6B6F000588294 /* Icon-72@2x.png */,
+				D0680A4315E6B6D700588294 /* Icon@2x.png */,
 				EAD8C507156C0DBD00ED082E /* Default.png */,
 				EAD8C505156C0D3E00ED082E /* Default-Landscape@2x~ipad.png */,
 				EAD8C503156C0D3B00ED082E /* Default-Landscape~ipad.png */,
@@ -140,7 +146,7 @@
 				EAD8C4FF156C0D3100ED082E /* Default-Portrait~ipad.png */,
 				EAD8C4FD156C0D2000ED082E /* Default@2x.png */,
 				A326B6BA1549A94900FE99D7 /* www */,
-				A372CD3B1549A71000E41CF7 /* DealerBook */,
+				A372CD3B1549A71000E41CF7 /* SalesVerge */,
 				A372CD201549A71000E41CF7 /* Frameworks */,
 				A372CD1E1549A71000E41CF7 /* Products */,
 			);
@@ -174,7 +180,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A372CD3B1549A71000E41CF7 /* DealerBook */ = {
+		A372CD3B1549A71000E41CF7 /* SalesVerge */ = {
 			isa = PBXGroup;
 			children = (
 				A372CD441549A71000E41CF7 /* Cordova.framework */,
@@ -183,16 +189,16 @@
 				A372CD701549A71000E41CF7 /* Plugins */,
 				A372CD3C1549A71000E41CF7 /* Supporting Files */,
 			);
-			path = DealerBook;
+			path = SalesVerge;
 			sourceTree = "<group>";
 		};
 		A372CD3C1549A71000E41CF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A372CD3D1549A71000E41CF7 /* DealerBook-Info.plist */,
+				A372CD3D1549A71000E41CF7 /* SalesVerge-Info.plist */,
 				A372CD3E1549A71000E41CF7 /* InfoPlist.strings */,
 				A372CD411549A71000E41CF7 /* main.m */,
-				A372CD431549A71000E41CF7 /* DealerBook-Prefix.pch */,
+				A372CD431549A71000E41CF7 /* SalesVerge-Prefix.pch */,
 				A372CD651549A71000E41CF7 /* Cordova.plist */,
 				A372CD6E1549A71000E41CF7 /* MainViewController.xib */,
 				A372CD721549A71000E41CF7 /* verify.sh */,
@@ -292,9 +298,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A372CD1C1549A71000E41CF7 /* DealerBook */ = {
+		A372CD1C1549A71000E41CF7 /* SalesVerge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "DealerBook" */;
+			buildConfigurationList = A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "SalesVerge" */;
 			buildPhases = (
 				A372CD161549A71000E41CF7 /* Sources */,
 				A372CD171549A71000E41CF7 /* Frameworks */,
@@ -307,7 +313,7 @@
 			);
 			dependencies = (
 			);
-			name = DealerBook;
+			name = SalesVerge;
 			productName = DealerOnTheGo;
 			productReference = A372CD1D1549A71000E41CF7 /* SalesVerge.app */;
 			productType = "com.apple.product-type.application";
@@ -320,7 +326,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "DealerBook" */;
+			buildConfigurationList = A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "SalesVerge" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -335,7 +341,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A372CD1C1549A71000E41CF7 /* DealerBook */,
+				A372CD1C1549A71000E41CF7 /* SalesVerge */,
 			);
 		};
 /* End PBXProject section */
@@ -365,6 +371,8 @@
 				EAD8C504156C0D3B00ED082E /* Default-Landscape~ipad.png in Resources */,
 				EAD8C506156C0D3E00ED082E /* Default-Landscape@2x~ipad.png in Resources */,
 				EAD8C508156C0DBD00ED082E /* Default.png in Resources */,
+				D0680A4415E6B6D700588294 /* Icon@2x.png in Resources */,
+				D0680A4615E6B6F000588294 /* Icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,8 +466,8 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -475,8 +483,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A6441A0-2D5C-4251-A864-DE3A28A06166";
+				PROVISIONING_PROFILE = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,8 +498,8 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = NO;
@@ -500,8 +508,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
+				PROVISIONING_PROFILE = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -512,19 +520,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DealerBook/DealerBook-Prefix.pch";
+				GCC_PREFIX_HEADER = "SalesVerge/SalesVerge-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
 				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "DealerBook/DealerBook-Info.plist";
+				INFOPLIST_FILE = "SalesVerge/SalesVerge-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -536,8 +544,8 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = SalesVerge;
-				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
+				PROVISIONING_PROFILE = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -547,19 +555,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony BENINATE (YX9QL94Z7T)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Justin Wilson (X77TMZ82PQ)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DealerBook/DealerBook-Prefix.pch";
+				GCC_PREFIX_HEADER = "SalesVerge/SalesVerge-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
 				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "DealerBook/DealerBook-Info.plist";
+				INFOPLIST_FILE = "SalesVerge/SalesVerge-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -571,8 +579,8 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = SalesVerge;
-				PROVISIONING_PROFILE = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "368CD238-9DEB-4140-9C33-5EE540BD7BE9";
+				PROVISIONING_PROFILE = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E56B6C21-FF67-4CFA-AF20-90E3E8111C33";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -582,7 +590,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "DealerBook" */ = {
+		A372CD141549A71000E41CF7 /* Build configuration list for PBXProject "SalesVerge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A372CD741549A71000E41CF7 /* Debug */,
@@ -591,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "DealerBook" */ = {
+		A372CD761549A71000E41CF7 /* Build configuration list for PBXNativeTarget "SalesVerge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A372CD771549A71000E41CF7 /* Debug */,
