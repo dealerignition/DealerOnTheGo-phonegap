@@ -25,9 +25,6 @@
 		A372CD421549A71000E41CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A372CD411549A71000E41CF7 /* main.m */; };
 		A372CD451549A71000E41CF7 /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A372CD441549A71000E41CF7 /* Cordova.framework */; };
 		A372CD4A1549A71000E41CF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A372CD481549A71000E41CF7 /* Localizable.strings */; };
-		A372CD4E1549A71000E41CF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A372CD4C1549A71000E41CF7 /* Localizable.strings */; };
-		A372CD521549A71000E41CF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A372CD501549A71000E41CF7 /* Localizable.strings */; };
-		A372CD561549A71000E41CF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A372CD541549A71000E41CF7 /* Localizable.strings */; };
 		A372CD641549A71000E41CF7 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A372CD631549A71000E41CF7 /* Capture.bundle */; };
 		A372CD661549A71000E41CF7 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = A372CD651549A71000E41CF7 /* Cordova.plist */; };
 		A372CD6A1549A71000E41CF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A372CD691549A71000E41CF7 /* AppDelegate.m */; };
@@ -38,6 +35,7 @@
 		A3CC2B351559758800AE3477 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B341559758800AE3477 /* Icon-114.png */; };
 		A3CC2B371559759400AE3477 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B361559759400AE3477 /* Icon-72.png */; };
 		A3CC2B39155976C800AE3477 /* 144-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CC2B38155976C800AE3477 /* 144-icon.png */; };
+		D0562DAF15E817E60087597C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C50D156C0FED00ED082E /* Default.png */; };
 		D0680A4415E6B6D700588294 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0680A4315E6B6D700588294 /* Icon@2x.png */; };
 		D0680A4615E6B6F000588294 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0680A4515E6B6F000588294 /* Icon-72@2x.png */; };
 		EAD8C4FE156C0D2000ED082E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C4FD156C0D2000ED082E /* Default@2x.png */; };
@@ -45,7 +43,6 @@
 		EAD8C502156C0D3600ED082E /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C501156C0D3600ED082E /* Default-Portrait@2x~ipad.png */; };
 		EAD8C504156C0D3B00ED082E /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C503156C0D3B00ED082E /* Default-Landscape~ipad.png */; };
 		EAD8C506156C0D3E00ED082E /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C505156C0D3E00ED082E /* Default-Landscape@2x~ipad.png */; };
-		EAD8C508156C0DBD00ED082E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD8C507156C0DBD00ED082E /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -353,9 +350,6 @@
 			files = (
 				A372CD401549A71000E41CF7 /* InfoPlist.strings in Resources */,
 				A372CD4A1549A71000E41CF7 /* Localizable.strings in Resources */,
-				A372CD4E1549A71000E41CF7 /* Localizable.strings in Resources */,
-				A372CD521549A71000E41CF7 /* Localizable.strings in Resources */,
-				A372CD561549A71000E41CF7 /* Localizable.strings in Resources */,
 				A372CD641549A71000E41CF7 /* Capture.bundle in Resources */,
 				A372CD661549A71000E41CF7 /* Cordova.plist in Resources */,
 				A372CD6F1549A71000E41CF7 /* MainViewController.xib in Resources */,
@@ -370,9 +364,9 @@
 				EAD8C502156C0D3600ED082E /* Default-Portrait@2x~ipad.png in Resources */,
 				EAD8C504156C0D3B00ED082E /* Default-Landscape~ipad.png in Resources */,
 				EAD8C506156C0D3E00ED082E /* Default-Landscape@2x~ipad.png in Resources */,
-				EAD8C508156C0DBD00ED082E /* Default.png in Resources */,
 				D0680A4415E6B6D700588294 /* Icon@2x.png in Resources */,
 				D0680A4615E6B6F000588294 /* Icon-72@2x.png in Resources */,
+				D0562DAF15E817E60087597C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

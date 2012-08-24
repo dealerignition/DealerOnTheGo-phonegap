@@ -23,6 +23,7 @@
 		<string>Default-Landscape~ipad.png</string>
 		<string>Default-Landscape@2x~ipad.png</string>
 		<string>Default-Portrait@2x~ipad.png</string>
+		<string>Default-Landscape@2x~ipad.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -41,6 +42,7 @@
 				<string>Default-Landscape~ipad.png</string>
 				<string>Default-Landscape@2x~ipad.png</string>
 				<string>Default-Portrait@2x~ipad.png</string>
+				<string>Default-Landscape@2x~ipad.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>
@@ -59,7 +61,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>21</string>
+	<string>22</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSMainNibFile~ipad</key>
